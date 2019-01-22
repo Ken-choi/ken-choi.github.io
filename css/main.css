@@ -252,6 +252,11 @@ animation: fadeInUp 0.5s ease 0s 1;
 -webkit-animation-fill-mode: forwards;
 animation-fill-mode: forwards;}
 }
+@media(max-width:1024px){
+.list-box > .cover{ max-height: 220px;}
+.list-box > .title > span{ font-size: 18px;}
+.list-box .link-box .content .title{ padding: 0 20px;}
+}
 @media(max-width:767px){
 .hidden-desktop{display: block !important;}
 .hidden-phone{display: none !important;}
